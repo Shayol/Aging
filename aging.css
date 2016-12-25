@@ -12,14 +12,47 @@ html {
 	max-width: 1140px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 10%;
-	padding-right: 10%;
-	background-color: #cccccc;
-	border: 2px solid #999999; 
+	padding: 2% 18% 2% 18%;
+}
+
+.main-heading {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 36px;
+	padding: 18px;
+	margin-bottom: 36px;
+}
+
+dl {
+	background-color: #f1e6da;
 }
 
 dt {
-	border: 5px solid #EE872A;
+	background-color: #ecd9c6;
+	font-size: 18px;
+	padding: 18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold
 }
 
+dd a {
+	text-decoration: none;
+	color: #008ae6;
+	background-color: none; 
+}
 
+dd {
+	padding: 12px 12px 12px 0px;
+	margin-left: 36px;
+}
+
+p {
+	line-height: 18px;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+
+p + p {
+	padding-top: 6px;
+}
