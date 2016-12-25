@@ -1,19 +1,23 @@
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 .container {
-  max-width: 1140px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 30%;
-  padding-right: 15%;
+	max-width: 1140px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 30%;
+	padding-right: 15%;
+}
+
+dt {
+	border: 5px solid #EE872A;
 }
 
 
